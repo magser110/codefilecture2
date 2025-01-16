@@ -1,12 +1,41 @@
-.header {
-    width: 150px;
-    height: 150px;
+.header-h1 {
+    width: 1500px;
+    height: 15px;
     padding: auto;
     margin: auto;
     background-color: blueviolet;
     position: sticky;
+    /* not sure why it's not staying at the top of the page*/
 }
 
+.exercise8 {
+    margin: 50px;
+    padding: 20px;
+    /* not sure why not dropping down*/
+}
+
+.dropdown {
+    position: relative;
+    display: inline;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+
+}
+
+.menu a {
+    display: block;
+}
+
+.menu a:hover {
+    background-color: palevioletred;
+}
+
+.hero {
+    margin: 100px;
+}
 .box1 {
     width: 100px;
     height: 100px;
@@ -151,4 +180,57 @@
     margin: 45px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 20%;
+}
+
+.the-modal {
+    display: none;
+    position: fixed;
+    /* not sure why not responding*/
+
+}
+
+.modal-content {
+    margin: 30px;
+    padding: 30px;
+    background-color: aquamarine;
+}
+
+.close-modal {
+    color: blueviolet;
+}
+
+.exercise10{
+    padding: auto;
+    float: left;
+}
+
+.gallery {
+    border: 1px solid black;
+}
+
+.gallery:hover {
+    border: 1px dotted palevioletred;
+}
+
+.gallery img {
+    width: 75%;
+    height: auto;
+}
+
+.discription {
+    padding: auto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+    .exercise10 {
+        width: 50%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .exercise10 {
+        width: 100%;
+    }
 }
